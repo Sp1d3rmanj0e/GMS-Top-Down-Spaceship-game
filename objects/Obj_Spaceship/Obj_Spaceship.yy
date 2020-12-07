@@ -21,8 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":true,"eventNum":37,"eventType":5,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":39,"eventType":5,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":32,"eventType":5,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
