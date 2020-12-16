@@ -2,12 +2,18 @@
 /// @DnDVersion : 1
 /// @DnDHash : 1196B50D
 /// @DnDArgument : "x" "room_width/2"
-/// @DnDArgument : "y" "417"
+/// @DnDArgument : "y" "702"
 x = room_width/2;
-y = 417;
+y = 702;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 01AC0470
 /// @DnDArgument : "var" "laserCooldown"
 laserCooldown = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3CAB12CF
+/// @DnDArgument : "var" "current_weapon"
+current_weapon = 0;
