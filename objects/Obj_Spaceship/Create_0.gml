@@ -14,6 +14,6 @@ laserCooldown = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3CAB12CF
+/// @DnDHash : 3331D52D
 /// @DnDArgument : "var" "current_weapon"
 current_weapon = 0;
