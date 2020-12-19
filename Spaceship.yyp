@@ -20,6 +20,7 @@
     {"id":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"order":5,},
     {"id":{"name":"Obj_Star","path":"objects/Obj_Star/Obj_Star.yy",},"order":1,},
     {"id":{"name":"Obj_Hurt","path":"objects/Obj_Hurt/Obj_Hurt.yy",},"order":4,},
+    {"id":{"name":"Fnt_Score","path":"fonts/Fnt_Score/Fnt_Score.yy",},"order":0,},
     {"id":{"name":"Spr_SmolStar","path":"sprites/Spr_SmolStar/Spr_SmolStar.yy",},"order":3,},
     {"id":{"name":"Spr_Star","path":"sprites/Spr_Star/Spr_Star.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

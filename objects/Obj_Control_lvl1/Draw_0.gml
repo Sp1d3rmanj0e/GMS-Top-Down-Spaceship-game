@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 660ABDCE
+/// @DnDArgument : "font" "Fnt_Score"
+/// @DnDSaveInfo : "font" "Fnt_Score"
+draw_set_font(Fnt_Score);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 31D16EAE
