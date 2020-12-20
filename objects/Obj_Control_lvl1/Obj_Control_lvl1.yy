@@ -21,6 +21,7 @@
     {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_Control_lvl1","path":"objects/Obj_Control_lvl1/Obj_Control_lvl1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Control_lvl1","path":"objects/Obj_Control_lvl1/Obj_Control_lvl1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_Control_lvl1","path":"objects/Obj_Control_lvl1/Obj_Control_lvl1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_Control_lvl1","path":"objects/Obj_Control_lvl1/Obj_Control_lvl1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

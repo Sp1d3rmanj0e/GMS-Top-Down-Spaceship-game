@@ -10,8 +10,8 @@ hp += -1;
 /// @DnDVersion : 1
 /// @DnDHash : 12B4CCD9
 /// @DnDArgument : "var" "hp"
-/// @DnDArgument : "value" "round(maxhp / 3 * 2)"
-if(hp == round(maxhp / 3 * 2))
+/// @DnDArgument : "value" "2"
+if(hp == 2)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -28,8 +28,8 @@ if(hp == round(maxhp / 3 * 2))
 /// @DnDVersion : 1
 /// @DnDHash : 35FAA532
 /// @DnDArgument : "var" "hp"
-/// @DnDArgument : "value" "round(maxhp / 3 * 1)"
-if(hp == round(maxhp / 3 * 1))
+/// @DnDArgument : "value" "1"
+if(hp == 1)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
