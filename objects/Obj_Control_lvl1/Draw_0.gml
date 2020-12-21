@@ -13,3 +13,13 @@ draw_set_font(Fnt_Score);
 /// @DnDArgument : "caption" ""Score: ""
 /// @DnDArgument : "var" "global.playerscore"
 draw_text(x + 0, y + 0, string("Score: ") + string(global.playerscore));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 5A16DBAD
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "40"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""Lives: ""
+/// @DnDArgument : "var" "global.hp"
+draw_text(x + 0, y + 40, string("Lives: ") + string(global.hp));

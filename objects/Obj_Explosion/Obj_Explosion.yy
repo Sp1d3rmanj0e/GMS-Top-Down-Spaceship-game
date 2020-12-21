@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Explosion",
-    "path": "sprites/Spr_Explosion/Spr_Explosion.yy",
+    "name": "Spr_Explosion1",
+    "path": "sprites/Spr_Explosion1/Spr_Explosion1.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,8 +22,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
