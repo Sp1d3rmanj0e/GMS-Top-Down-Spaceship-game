@@ -24,9 +24,3 @@ hp = maxhp;
 /// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "hspd"
 hspd = 4;
-
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
-/// @DnDVersion : 1
-/// @DnDHash : 2D30FD5E
-/// @DnDArgument : "steps" "60"
-alarm_set(0, 60);
