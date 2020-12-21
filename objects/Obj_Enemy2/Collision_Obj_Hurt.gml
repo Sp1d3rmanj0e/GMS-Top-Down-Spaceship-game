@@ -41,8 +41,8 @@ if(hp <= 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A4B2835
 	/// @DnDParent : 44D9050E
-	/// @DnDArgument : "expr" "100"
+	/// @DnDArgument : "expr" "125"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "global.playerscore"
-	global.playerscore += 100;
+	global.playerscore += 125;
 }

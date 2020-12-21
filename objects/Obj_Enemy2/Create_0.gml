@@ -20,7 +20,7 @@ hp = maxhp;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4CFDC066
+/// @DnDHash : 37140F46
 /// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "hspd"
 hspd = 4;
