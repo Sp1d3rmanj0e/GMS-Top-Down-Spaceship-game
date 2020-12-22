@@ -28,4 +28,12 @@ if(0 == 0)
 	/// @DnDArgument : "steps" "room_speed * 10"
 	/// @DnDArgument : "alarm" "1"
 	alarm_set(1, room_speed * 10);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E655131
+	/// @DnDParent : 5E46026B
+	/// @DnDArgument : "steps" "room_speed * 4"
+	/// @DnDArgument : "alarm" "2"
+	alarm_set(2, room_speed * 4);
 }

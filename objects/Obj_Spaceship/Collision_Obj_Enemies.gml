@@ -40,12 +40,35 @@ with(other) instance_destroy();
 /// @DnDArgument : "op" "3"
 if(global.hp <= 0)
 {
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 3FDC12F7
+	/// @DnDApplyTo : {Obj_HpBar}
+	/// @DnDParent : 562BD67A
+	/// @DnDArgument : "imageind" "1"
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "Spr_HpBar"
+	/// @DnDSaveInfo : "spriteind" "Spr_HpBar"
+	with(Obj_HpBar) {
+	sprite_index = Spr_HpBar;
+	image_index += 1;
+	}
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 18060BCD
 	/// @DnDParent : 562BD67A
 	/// @DnDArgument : "var" "global.hp"
 	global.hp = 0;
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 6466835E
+	/// @DnDParent : 562BD67A
+	/// @DnDArgument : "objectid" "Obj_Respawn"
+	/// @DnDArgument : "layer" ""Ship""
+	/// @DnDSaveInfo : "objectid" "Obj_Respawn"
+	instance_create_layer(0, 0, "Ship", Obj_Respawn);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
