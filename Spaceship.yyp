@@ -30,6 +30,7 @@
     {"id":{"name":"Obj_Hurt","path":"objects/Obj_Hurt/Obj_Hurt.yy",},"order":4,},
     {"id":{"name":"Obj_Respawn","path":"objects/Obj_Respawn/Obj_Respawn.yy",},"order":16,},
     {"id":{"name":"Fnt_Score","path":"fonts/Fnt_Score/Fnt_Score.yy",},"order":0,},
+    {"id":{"name":"Obj_GUI","path":"objects/Obj_GUI/Obj_GUI.yy",},"order":18,},
     {"id":{"name":"Spr_SmolStar","path":"sprites/Spr_SmolStar/Spr_SmolStar.yy",},"order":3,},
     {"id":{"name":"Spr_Star","path":"sprites/Spr_Star/Spr_Star.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

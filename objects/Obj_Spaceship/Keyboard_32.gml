@@ -1,6 +1,7 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 37CFF784
+/// @DnDComment : Don't forget to add mouse compatibility$(13_10)when finished!
 /// @DnDArgument : "var" "laserCooldown"
 /// @DnDArgument : "op" "3"
 if(laserCooldown <= 0)

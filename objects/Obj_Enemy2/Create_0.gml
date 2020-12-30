@@ -21,6 +21,13 @@ hp = maxhp;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 37140F46
-/// @DnDArgument : "expr" "4"
+/// @DnDArgument : "expr" "random_range(2,4)"
 /// @DnDArgument : "var" "hspd"
-hspd = 4;
+hspd = random_range(2,4);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 301FE53E
+/// @DnDArgument : "expr" "x"
+/// @DnDArgument : "var" "initial_point"
+initial_point = x;
