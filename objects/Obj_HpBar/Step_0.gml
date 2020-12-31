@@ -5,32 +5,34 @@
 /// @DnDArgument : "op" "3"
 if(global.hp <= 0)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 1F8AFF22
-	/// @DnDParent : 2508E710
-	/// @DnDArgument : "expr" "random_range(-3,3)"
-	/// @DnDArgument : "var" "xShake"
-	xShake = random_range(-3,3);
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0C0AA9AF
-	/// @DnDParent : 2508E710
-	/// @DnDArgument : "expr" "random_range(-3,3)"
-	/// @DnDArgument : "var" "yShake"
-	yShake = random_range(-3,3);
-
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 5A9F4744
 	/// @DnDParent : 2508E710
-	/// @DnDArgument : "x" "xShake"
+	/// @DnDArgument : "x" "random_range(-3,3)"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "yShake"
+	/// @DnDArgument : "y" "random_range(-3,3)"
 	/// @DnDArgument : "y_relative" "1"
-	x += xShake;
-	y += yShake;
+	x += random_range(-3,3);
+	y += random_range(-3,3);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0DBB3243
+/// @DnDArgument : "var" "global.hp"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "op" "3"
+if(!(global.hp <= 0))
+{
+	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 25028C69
+	/// @DnDParent : 0DBB3243
+	/// @DnDArgument : "x" "448"
+	/// @DnDArgument : "y" "736"
+	x = 448;
+	y = 736;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
