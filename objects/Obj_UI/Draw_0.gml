@@ -5,6 +5,12 @@
 /// @DnDSaveInfo : "font" "Fnt_Score"
 draw_set_font(Fnt_Score);
 
+/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+/// @DnDVersion : 1.1
+/// @DnDHash : 42114156
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 4A43C317

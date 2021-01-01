@@ -17,6 +17,8 @@
     {"id":{"name":"Spr_PowerUp_Ammo2","path":"sprites/Spr_PowerUp_Ammo2/Spr_PowerUp_Ammo2.yy",},"order":7,},
     {"id":{"name":"Obj_Powerup_Ammo2","path":"objects/Obj_Powerup_Ammo2/Obj_Powerup_Ammo2.yy",},"order":7,},
     {"id":{"name":"Obj_Powerup_Ammo1","path":"objects/Obj_Powerup_Ammo1/Obj_Powerup_Ammo1.yy",},"order":6,},
+    {"id":{"name":"Obj_Button1","path":"objects/Obj_Button1/Obj_Button1.yy",},"order":22,},
+    {"id":{"name":"Spr_Button1","path":"sprites/Spr_Button1/Spr_Button1.yy",},"order":16,},
     {"id":{"name":"Spr_Enemy3","path":"sprites/Spr_Enemy3/Spr_Enemy3.yy",},"order":14,},
     {"id":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},"order":12,},
     {"id":{"name":"Spr_Spaceship","path":"sprites/Spr_Spaceship/Spr_Spaceship.yy",},"order":0,},
@@ -25,6 +27,7 @@
     {"id":{"name":"Obj_Enemies","path":"objects/Obj_Enemies/Obj_Enemies.yy",},"order":14,},
     {"id":{"name":"Spr_Hurt","path":"sprites/Spr_Hurt/Spr_Hurt.yy",},"order":4,},
     {"id":{"name":"Spr_PowerUp_Shield","path":"sprites/Spr_PowerUp_Shield/Spr_PowerUp_Shield.yy",},"order":5,},
+    {"id":{"name":"Rm_TitleScreen","path":"rooms/Rm_TitleScreen/Rm_TitleScreen.yy",},"order":1,},
     {"id":{"name":"Obj_Enemy1","path":"objects/Obj_Enemy1/Obj_Enemy1.yy",},"order":9,},
     {"id":{"name":"Obj_Enemy2","path":"objects/Obj_Enemy2/Obj_Enemy2.yy",},"order":15,},
     {"id":{"name":"Obj_HpBar","path":"objects/Obj_HpBar/Obj_HpBar.yy",},"order":17,},
@@ -35,7 +38,7 @@
     {"id":{"name":"Obj_Hurt","path":"objects/Obj_Hurt/Obj_Hurt.yy",},"order":4,},
     {"id":{"name":"Obj_Respawn","path":"objects/Obj_Respawn/Obj_Respawn.yy",},"order":16,},
     {"id":{"name":"Fnt_Score","path":"fonts/Fnt_Score/Fnt_Score.yy",},"order":0,},
-    {"id":{"name":"Obj_GUI","path":"objects/Obj_GUI/Obj_GUI.yy",},"order":18,},
+    {"id":{"name":"Obj_UI","path":"objects/Obj_UI/Obj_UI.yy",},"order":18,},
     {"id":{"name":"Spr_SmolStar","path":"sprites/Spr_SmolStar/Spr_SmolStar.yy",},"order":3,},
     {"id":{"name":"Spr_Star","path":"sprites/Spr_Star/Spr_Star.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -54,6 +57,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Rm_TitleScreen","path":"rooms/Rm_TitleScreen/Rm_TitleScreen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
