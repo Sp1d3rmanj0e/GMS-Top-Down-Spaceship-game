@@ -29,8 +29,9 @@ global.hp = 5;
 /// @DnDVersion : 1
 /// @DnDHash : 3F1DF03A
 /// @DnDComment : 0 = Keyboard, 1 = Mouse
+/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "movement_type"
-movement_type = 0;
+movement_type = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -39,3 +40,11 @@ movement_type = 0;
 /// @DnDArgument : "expr" "7"
 /// @DnDArgument : "var" "key_speed"
 key_speed = 7;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3FFDE46B
+/// @DnDComment : 0 = Hp Bars off, 1 = Hp Bars on
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.hp_bar"
+global.hp_bar = 1;

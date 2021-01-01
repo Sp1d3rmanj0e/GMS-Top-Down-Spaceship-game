@@ -10,6 +10,6 @@ image_index = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2EF5E725
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "4"
 /// @DnDArgument : "var" "Offset"
-Offset = 5;
+Offset = 4;

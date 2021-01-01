@@ -57,14 +57,45 @@ with(other) instance_destroy();
 /// @DnDVersion : 1
 /// @DnDHash : 562BD67A
 /// @DnDArgument : "var" "global.hp"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "op" "3"
+if(!(global.hp <= 0))
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 340B875E
+	/// @DnDParent : 562BD67A
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "Obj_SmallShake"
+	/// @DnDArgument : "layer" ""Explosions""
+	/// @DnDSaveInfo : "objectid" "Obj_SmallShake"
+	instance_create_layer(x + 0, y + 0, "Explosions", Obj_SmallShake);
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 64ED5026
+/// @DnDArgument : "var" "global.hp"
 /// @DnDArgument : "op" "3"
 if(global.hp <= 0)
 {
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 3CF8AC2D
+	/// @DnDParent : 64ED5026
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "Obj_LargeShake"
+	/// @DnDArgument : "layer" ""Explosions""
+	/// @DnDSaveInfo : "objectid" "Obj_LargeShake"
+	instance_create_layer(x + 0, y + 0, "Explosions", Obj_LargeShake);
+
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 3FDC12F7
+	/// @DnDHash : 6AEECAE6
 	/// @DnDApplyTo : {Obj_HpBar}
-	/// @DnDParent : 562BD67A
+	/// @DnDParent : 64ED5026
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "Spr_HpBar"
@@ -76,15 +107,15 @@ if(global.hp <= 0)
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 18060BCD
-	/// @DnDParent : 562BD67A
+	/// @DnDHash : 7ACEF5F3
+	/// @DnDParent : 64ED5026
 	/// @DnDArgument : "var" "global.hp"
 	global.hp = 0;
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 6466835E
-	/// @DnDParent : 562BD67A
+	/// @DnDHash : 0E3D905C
+	/// @DnDParent : 64ED5026
 	/// @DnDArgument : "objectid" "Obj_Respawn"
 	/// @DnDArgument : "layer" ""Ship""
 	/// @DnDSaveInfo : "objectid" "Obj_Respawn"
@@ -92,7 +123,7 @@ if(global.hp <= 0)
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 39094337
-	/// @DnDParent : 562BD67A
+	/// @DnDHash : 77C62499
+	/// @DnDParent : 64ED5026
 	instance_destroy();
 }
