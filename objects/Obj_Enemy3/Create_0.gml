@@ -35,5 +35,5 @@ initial_point = x;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5ED4956A
-/// @DnDArgument : "steps" "60"
-alarm_set(0, 60);
+/// @DnDArgument : "steps" "random_range(55,85)"
+alarm_set(0, random_range(55,85));

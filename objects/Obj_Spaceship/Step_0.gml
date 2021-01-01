@@ -1,3 +1,25 @@
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 782154FB
+/// @DnDArgument : "key" "vk_down"
+/// @DnDArgument : "not" "1"
+var l782154FB_0;
+l782154FB_0 = keyboard_check(vk_down);
+if (!l782154FB_0)
+{
+	/// @DnDAction : YoYo Games.Particles.Part_Particles_Create
+	/// @DnDVersion : 1
+	/// @DnDHash : 3E2727BF
+	/// @DnDParent : 782154FB
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "42"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "system" "global.pSystem"
+	/// @DnDArgument : "type" "global.pThrusters"
+	/// @DnDArgument : "number" "15"
+	part_particles_create(global.pSystem, x + 0, y + 42, global.pThrusters, 15);
+}
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 043F2339
