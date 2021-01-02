@@ -30,16 +30,16 @@ global.hp = 5;
 /// @DnDHash : 3F1DF03A
 /// @DnDComment : 0 = Keyboard, 1 = Mouse
 /// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "movement_type"
-movement_type = 1;
+/// @DnDArgument : "var" "global.movement_type"
+global.movement_type = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5A72E94B
 /// @DnDComment : Sets the speed the ship moves if activated
 /// @DnDArgument : "expr" "7"
-/// @DnDArgument : "var" "key_speed"
-key_speed = 7;
+/// @DnDArgument : "var" "global.key_speed"
+global.key_speed = 7;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -48,3 +48,10 @@ key_speed = 7;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.hp_bar"
 global.hp_bar = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7339EBB1
+/// @DnDComment : 0 = Can take damage, 1 = Can't take damage
+/// @DnDArgument : "var" "safety"
+safety = 0;

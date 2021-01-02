@@ -12,13 +12,16 @@ if(!l29D31357_0)
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 130EB732
+	/// @DnDApplyTo : {Obj_SpaceshipRespawn}
 	/// @DnDParent : 29D31357
-	/// @DnDArgument : "xpos" "320"
-	/// @DnDArgument : "ypos" "702"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "Obj_Spaceship"
 	/// @DnDArgument : "layer" ""Ship""
 	/// @DnDSaveInfo : "objectid" "Obj_Spaceship"
-	instance_create_layer(320, 702, "Ship", Obj_Spaceship);
+	with(Obj_SpaceshipRespawn) {
+		instance_create_layer(x + 0, y + 0, "Ship", Obj_Spaceship); 
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
