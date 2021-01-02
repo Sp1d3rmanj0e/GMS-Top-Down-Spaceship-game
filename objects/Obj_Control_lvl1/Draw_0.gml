@@ -26,6 +26,6 @@ draw_text(x + 0, y + 0, string("Score: ") + string(global.playerscore));
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "40"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""Lives: ""
+/// @DnDArgument : "caption" ""Health: ""
 /// @DnDArgument : "var" "global.hp"
-draw_text(x + 0, y + 40, string("Lives: ") + string(global.hp));
+draw_text(x + 0, y + 40, string("Health: ") + string(global.hp));
