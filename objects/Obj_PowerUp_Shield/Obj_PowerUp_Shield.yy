@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Powerups",
+    "path": "folders/Objects/Powerups.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_PowerUp_Shield",

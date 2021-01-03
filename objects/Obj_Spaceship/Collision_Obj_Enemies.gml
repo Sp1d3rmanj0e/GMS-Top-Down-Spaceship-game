@@ -42,10 +42,10 @@ if(safety == 0)
 	/// @DnDArgument : "xpos_relative" "1"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "Obj_Explosion2"
-	/// @DnDArgument : "layer" ""Explosions""
+	/// @DnDArgument : "layer" ""Effects""
 	/// @DnDSaveInfo : "objectid" "Obj_Explosion2"
 	with(other) {
-		instance_create_layer(x + 0, y + 0, "Explosions", Obj_Explosion2); 
+		instance_create_layer(x + 0, y + 0, "Effects", Obj_Explosion2); 
 	}
 
 	/// @DnDAction : YoYo Games.Common.Variable
@@ -80,9 +80,9 @@ if(safety == 0)
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "Obj_SmallShake"
-		/// @DnDArgument : "layer" ""Explosions""
+		/// @DnDArgument : "layer" ""Effects""
 		/// @DnDSaveInfo : "objectid" "Obj_SmallShake"
-		instance_create_layer(x + 0, y + 0, "Explosions", Obj_SmallShake);
+		instance_create_layer(x + 0, y + 0, "Effects", Obj_SmallShake);
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -100,9 +100,9 @@ if(safety == 0)
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "Obj_LargeShake"
-		/// @DnDArgument : "layer" ""Explosions""
+		/// @DnDArgument : "layer" ""Effects""
 		/// @DnDSaveInfo : "objectid" "Obj_LargeShake"
-		instance_create_layer(x + 0, y + 0, "Explosions", Obj_LargeShake);
+		instance_create_layer(x + 0, y + 0, "Effects", Obj_LargeShake);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

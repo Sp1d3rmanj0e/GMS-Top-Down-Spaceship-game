@@ -2,9 +2,9 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 2F52FF2B
 /// @DnDArgument : "var" "global.pSystem"
-/// @DnDArgument : "layer" ""Explosions""
+/// @DnDArgument : "layer" ""Effects""
 /// @DnDArgument : "persist" "1"
-global.pSystem = part_system_create_layer("Explosions", 1);
+global.pSystem = part_system_create_layer("Effects", 1);
 
 /// @DnDAction : YoYo Games.Particles.Part_Type_Create
 /// @DnDVersion : 1.1

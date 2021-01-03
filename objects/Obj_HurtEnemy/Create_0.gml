@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 45D0C31A
+/// @DnDArgument : "expr" "7"
+/// @DnDArgument : "var" "setSpeed"
+setSpeed = 7;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 7C6AEDCE
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "hp"

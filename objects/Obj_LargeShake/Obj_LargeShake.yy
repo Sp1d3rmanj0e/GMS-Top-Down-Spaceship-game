@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Spriteless",
+    "path": "folders/Objects/Spriteless.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_LargeShake",

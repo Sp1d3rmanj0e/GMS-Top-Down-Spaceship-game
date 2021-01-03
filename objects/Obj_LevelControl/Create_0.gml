@@ -32,8 +32,18 @@ if(0 == 0)
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 0E655131
+	/// @DnDComment : Spawns Enemy 2
 	/// @DnDParent : 5E46026B
 	/// @DnDArgument : "steps" "room_speed * 4"
 	/// @DnDArgument : "alarm" "2"
 	alarm_set(2, room_speed * 4);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 6EAEB54B
+	/// @DnDComment : Spawns Enemy 3
+	/// @DnDParent : 5E46026B
+	/// @DnDArgument : "steps" "room_speed * 4"
+	/// @DnDArgument : "alarm" "3"
+	alarm_set(3, room_speed * 4);
 }
