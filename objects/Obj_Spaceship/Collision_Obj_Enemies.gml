@@ -107,6 +107,7 @@ if(safety == 0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7ACEF5F3
+		/// @DnDComment : Buffer
 		/// @DnDParent : 64ED5026
 		/// @DnDArgument : "var" "global.hp"
 		global.hp = 0;

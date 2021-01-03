@@ -27,3 +27,37 @@ if(dDirection >= 360)
 	/// @DnDArgument : "var" "dDirection"
 	dDirection = 0;
 }
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 79883707
+/// @DnDArgument : "var" "global.mtsHealth"
+/// @DnDArgument : "op" "3"
+if(global.mtsHealth <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 3729AF1A
+	/// @DnDParent : 79883707
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "Obj_MothershipRespawn"
+	/// @DnDArgument : "layer" ""Enemies""
+	/// @DnDSaveInfo : "objectid" "Obj_MothershipRespawn"
+	instance_create_layer(x + 0, y + 0, "Enemies", Obj_MothershipRespawn);
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 47F9F460
+	/// @DnDParent : 79883707
+	/// @DnDArgument : "objectid" "Obj_Respawn"
+	/// @DnDArgument : "layer" ""Top""
+	/// @DnDSaveInfo : "objectid" "Obj_Respawn"
+	instance_create_layer(0, 0, "Top", Obj_Respawn);
+
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 7E1B03DA
+	/// @DnDParent : 79883707
+	instance_destroy();
+}

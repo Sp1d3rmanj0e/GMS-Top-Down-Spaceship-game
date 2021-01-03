@@ -40,8 +40,9 @@ global.hp = 5;
 /// @DnDVersion : 1
 /// @DnDHash : 3F1DF03A
 /// @DnDComment : 0 = Keyboard, 1 = Mouse
+/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.movement_type"
-global.movement_type = 0;
+global.movement_type = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

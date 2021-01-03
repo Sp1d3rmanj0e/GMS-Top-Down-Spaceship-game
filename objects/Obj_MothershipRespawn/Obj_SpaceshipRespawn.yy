@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Respawns",
-    "path": "folders/Objects/Enemies and Player/Respawns.yy",
+    "name": "Enemies and Player",
+    "path": "folders/Objects/Enemies and Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_SpaceshipRespawn",
