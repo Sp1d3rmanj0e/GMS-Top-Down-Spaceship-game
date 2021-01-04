@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactive",
-    "path": "folders/Objects/Visuals and Tools/Interactive.yy",
+    "name": "Visuals and Tools",
+    "path": "folders/Objects/Visuals and Tools.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_SwitchHpBr",

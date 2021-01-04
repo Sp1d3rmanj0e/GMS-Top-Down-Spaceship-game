@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Visuals and Tools",
-    "path": "folders/Objects/Visuals and Tools.yy",
+    "name": "Interactive",
+    "path": "folders/Objects/Visuals and Tools/Interactive.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_ButtonTitl",
