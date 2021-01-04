@@ -32,8 +32,8 @@ image_alpha = 0.75;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 43018BF4
-/// @DnDArgument : "steps" "room_speed * 3 + 1"
-alarm_set(0, room_speed * 3 + 1);
+/// @DnDArgument : "steps" "room_speed * 2"
+alarm_set(0, room_speed * 2);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

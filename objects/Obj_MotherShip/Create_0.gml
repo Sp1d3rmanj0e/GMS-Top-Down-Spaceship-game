@@ -22,6 +22,7 @@ safety = 0;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7567ABA1
+/// @DnDComment : Default = 20
 /// @DnDArgument : "expr" "20"
 /// @DnDArgument : "var" "global.mtsHealth"
 global.mtsHealth = 20;
