@@ -25,11 +25,17 @@ image_speed = 0;
 sprite_index = Spr_SliderKnob;
 image_index = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2E5E1EED
+/// @DnDArgument : "var" "scroll_lock"
+scroll_lock = 0;
+
 /// @DnDAction : YoYo Games.Movement.Jump_To_Point
 /// @DnDVersion : 1
 /// @DnDHash : 519F1FA9
-/// @DnDArgument : "x" "100 + (28.55 * global.key_speed)"
+/// @DnDArgument : "x" "100 + (27.1428571429 * global.key_speed)"
 /// @DnDArgument : "y" "0"
 /// @DnDArgument : "y_relative" "1"
-x = 100 + (28.55 * global.key_speed);
+x = 100 + (27.1428571429 * global.key_speed);
 y += 0;
