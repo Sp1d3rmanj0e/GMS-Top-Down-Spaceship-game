@@ -1,3 +1,18 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1F56BA9E
+/// @DnDArgument : "expr" "1000"
+/// @DnDArgument : "var" "global.playerscore"
+global.playerscore = 1000;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 388AFA24
+/// @DnDComment : god mode$(13_10)delete later
+/// @DnDArgument : "expr" "10000"
+/// @DnDArgument : "var" "global.playerscore"
+global.playerscore = 10000;
+
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1
 /// @DnDHash : 2F52FF2B

@@ -151,3 +151,76 @@ if(laserCooldown > 0)
 	/// @DnDArgument : "var" "laserCooldown"
 	laserCooldown += -1;
 }
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 3CDC4A5F
+/// @DnDArgument : "key" "ord("Z")"
+var l3CDC4A5F_0;
+l3CDC4A5F_0 = keyboard_check(ord("Z"));
+if (l3CDC4A5F_0)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0E6A6E55
+	/// @DnDParent : 3CDC4A5F
+	/// @DnDArgument : "var" "zpres"
+	if(zpres == 0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 742D66AF
+		/// @DnDParent : 0E6A6E55
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "zpres"
+		zpres = 1;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 36CEEC58
+		/// @DnDParent : 0E6A6E55
+		/// @DnDArgument : "var" "global.playerscore"
+		/// @DnDArgument : "op" "2"
+		/// @DnDArgument : "value" "4999"
+		if(global.playerscore > 4999)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 3F0CE39F
+			/// @DnDParent : 36CEEC58
+			/// @DnDArgument : "expr" "-5000"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "global.playerscore"
+			global.playerscore += -5000;
+		
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 7EAEE75F
+			/// @DnDParent : 36CEEC58
+			/// @DnDArgument : "xpos_relative" "1"
+			/// @DnDArgument : "ypos" "30"
+			/// @DnDArgument : "ypos_relative" "1"
+			/// @DnDArgument : "objectid" "Obj_Wall"
+			/// @DnDArgument : "layer" ""Effects""
+			/// @DnDSaveInfo : "objectid" "Obj_Wall"
+			instance_create_layer(x + 0, y + 30, "Effects", Obj_Wall);
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 2EA34165
+/// @DnDArgument : "key" "ord("Z")"
+/// @DnDArgument : "not" "1"
+var l2EA34165_0;
+l2EA34165_0 = keyboard_check(ord("Z"));
+if (!l2EA34165_0)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0439E58C
+	/// @DnDParent : 2EA34165
+	/// @DnDArgument : "var" "zpres"
+	zpres = 0;
+}

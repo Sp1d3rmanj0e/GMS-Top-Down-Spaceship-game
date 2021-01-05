@@ -42,3 +42,9 @@ global.hp = 5;
 /// @DnDComment : 0 = Can take damage, 1 = Can't take damage
 /// @DnDArgument : "var" "safety"
 safety = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 127A029D
+/// @DnDArgument : "var" "zpres"
+zpres = 0;
