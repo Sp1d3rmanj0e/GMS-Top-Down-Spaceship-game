@@ -27,25 +27,60 @@ if(global.movement_type == 0)
 			/// @DnDArgument : "var" "current_weapon"
 			if(current_weapon == 0)
 			{
-				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 2DAFD18E
+				/// @DnDHash : 4230F53D
 				/// @DnDParent : 70264703
-				/// @DnDArgument : "xpos_relative" "1"
-				/// @DnDArgument : "ypos" "-70"
-				/// @DnDArgument : "ypos_relative" "1"
-				/// @DnDArgument : "objectid" "Obj_Hurt"
-				/// @DnDArgument : "layer" ""Laser""
-				/// @DnDSaveInfo : "objectid" "Obj_Hurt"
-				instance_create_layer(x + 0, y + -70, "Laser", Obj_Hurt);
+				/// @DnDArgument : "var" "rockets"
+				if(rockets == 0)
+				{
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 2DAFD18E
+					/// @DnDParent : 4230F53D
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "-70"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "Obj_Hurt"
+					/// @DnDArgument : "layer" ""Laser""
+					/// @DnDSaveInfo : "objectid" "Obj_Hurt"
+					instance_create_layer(x + 0, y + -70, "Laser", Obj_Hurt);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 3D155D28
+					/// @DnDParent : 4230F53D
+					/// @DnDArgument : "expr" "15"
+					/// @DnDArgument : "var" "laserCooldown"
+					laserCooldown = 15;
+				}
 			
-				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDAction : YoYo Games.Common.Else
 				/// @DnDVersion : 1
-				/// @DnDHash : 3D155D28
+				/// @DnDHash : 0E03837D
 				/// @DnDParent : 70264703
-				/// @DnDArgument : "expr" "15"
-				/// @DnDArgument : "var" "laserCooldown"
-				laserCooldown = 15;
+				else
+				{
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 2855E385
+					/// @DnDParent : 0E03837D
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "-70"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "Obj_HurtInsta"
+					/// @DnDArgument : "layer" ""Laser""
+					/// @DnDSaveInfo : "objectid" "Obj_HurtInsta"
+					instance_create_layer(x + 0, y + -70, "Laser", Obj_HurtInsta);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 65DB5C91
+					/// @DnDParent : 0E03837D
+					/// @DnDArgument : "expr" "15"
+					/// @DnDArgument : "var" "laserCooldown"
+					laserCooldown = 15;
+				}
 			}
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
@@ -56,39 +91,88 @@ if(global.movement_type == 0)
 			/// @DnDArgument : "value" "1"
 			if(current_weapon == 1)
 			{
-				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 54330FC3
+				/// @DnDHash : 6F548630
 				/// @DnDParent : 6A6F9E8C
-				/// @DnDArgument : "xpos" "-25"
-				/// @DnDArgument : "xpos_relative" "1"
-				/// @DnDArgument : "ypos" "-40"
-				/// @DnDArgument : "ypos_relative" "1"
-				/// @DnDArgument : "objectid" "Obj_Hurt"
-				/// @DnDArgument : "layer" ""Laser""
-				/// @DnDSaveInfo : "objectid" "Obj_Hurt"
-				instance_create_layer(x + -25, y + -40, "Laser", Obj_Hurt);
+				/// @DnDArgument : "var" "rockets"
+				if(rockets == 0)
+				{
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 54330FC3
+					/// @DnDParent : 6F548630
+					/// @DnDArgument : "xpos" "-25"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "-40"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "Obj_Hurt"
+					/// @DnDArgument : "layer" ""Laser""
+					/// @DnDSaveInfo : "objectid" "Obj_Hurt"
+					instance_create_layer(x + -25, y + -40, "Laser", Obj_Hurt);
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 56675147
+					/// @DnDParent : 6F548630
+					/// @DnDArgument : "xpos" "25"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "-40"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "Obj_Hurt"
+					/// @DnDArgument : "layer" ""Laser""
+					/// @DnDSaveInfo : "objectid" "Obj_Hurt"
+					instance_create_layer(x + 25, y + -40, "Laser", Obj_Hurt);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 5497D586
+					/// @DnDParent : 6F548630
+					/// @DnDArgument : "expr" "15"
+					/// @DnDArgument : "var" "laserCooldown"
+					laserCooldown = 15;
+				}
 			
-				/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDAction : YoYo Games.Common.Else
 				/// @DnDVersion : 1
-				/// @DnDHash : 56675147
+				/// @DnDHash : 7EC34982
 				/// @DnDParent : 6A6F9E8C
-				/// @DnDArgument : "xpos" "25"
-				/// @DnDArgument : "xpos_relative" "1"
-				/// @DnDArgument : "ypos" "-40"
-				/// @DnDArgument : "ypos_relative" "1"
-				/// @DnDArgument : "objectid" "Obj_Hurt"
-				/// @DnDArgument : "layer" ""Laser""
-				/// @DnDSaveInfo : "objectid" "Obj_Hurt"
-				instance_create_layer(x + 25, y + -40, "Laser", Obj_Hurt);
-			
-				/// @DnDAction : YoYo Games.Common.Variable
-				/// @DnDVersion : 1
-				/// @DnDHash : 5497D586
-				/// @DnDParent : 6A6F9E8C
-				/// @DnDArgument : "expr" "15"
-				/// @DnDArgument : "var" "laserCooldown"
-				laserCooldown = 15;
+				else
+				{
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 34747FFE
+					/// @DnDParent : 7EC34982
+					/// @DnDArgument : "xpos" "-25"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "-40"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "Obj_HurtInsta"
+					/// @DnDArgument : "layer" ""Laser""
+					/// @DnDSaveInfo : "objectid" "Obj_HurtInsta"
+					instance_create_layer(x + -25, y + -40, "Laser", Obj_HurtInsta);
+				
+					/// @DnDAction : YoYo Games.Instances.Create_Instance
+					/// @DnDVersion : 1
+					/// @DnDHash : 100C4713
+					/// @DnDParent : 7EC34982
+					/// @DnDArgument : "xpos" "25"
+					/// @DnDArgument : "xpos_relative" "1"
+					/// @DnDArgument : "ypos" "-40"
+					/// @DnDArgument : "ypos_relative" "1"
+					/// @DnDArgument : "objectid" "Obj_HurtInsta"
+					/// @DnDArgument : "layer" ""Laser""
+					/// @DnDSaveInfo : "objectid" "Obj_HurtInsta"
+					instance_create_layer(x + 25, y + -40, "Laser", Obj_HurtInsta);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 68566382
+					/// @DnDParent : 7EC34982
+					/// @DnDArgument : "expr" "15"
+					/// @DnDArgument : "var" "laserCooldown"
+					laserCooldown = 15;
+				}
 			}
 		}
 	}

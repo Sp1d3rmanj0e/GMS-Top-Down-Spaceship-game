@@ -19,6 +19,12 @@ if(l36589785_0)
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 32B237D8
+/// @DnDArgument : "var" "rockets"
+rockets = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 01AC0470
 /// @DnDArgument : "var" "laserCooldown"
 laserCooldown = 0;

@@ -142,3 +142,66 @@ part_type_speed(global.pExplode, 1, 2, 0, 0);
 /// @DnDHash : 675030C9
 /// @DnDArgument : "type" "global.pExplode"
 part_type_direction(global.pExplode, 0, 360, 0, 0);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Create
+/// @DnDVersion : 1.1
+/// @DnDHash : 5F7AF1FD
+/// @DnDArgument : "var" "global.pRocket"
+global.pRocket = part_type_create();
+// no blending
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Size
+/// @DnDVersion : 1
+/// @DnDHash : 2CC5E8FF
+/// @DnDArgument : "type" "global.pRocket"
+/// @DnDArgument : "minsize" "0.05"
+/// @DnDArgument : "maxsize" "0.1"
+part_type_size(global.pRocket, 0.05, 0.1, 0, 0);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Shape
+/// @DnDVersion : 1.1
+/// @DnDHash : 4B5147E7
+/// @DnDArgument : "type" "global.pRocket"
+/// @DnDArgument : "shape" "pt_shape_square"
+part_type_shape(global.pRocket, pt_shape_square);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Color
+/// @DnDVersion : 1
+/// @DnDHash : 34A45116
+/// @DnDArgument : "type" "global.pRocket"
+/// @DnDArgument : "startcol" "$FF4F69FF"
+/// @DnDArgument : "midcol" "$FF70ABFF"
+/// @DnDArgument : "endcol" "$FFFFFFFF"
+part_type_colour3(global.pRocket, $FF4F69FF & $FFFFFF, $FF70ABFF & $FFFFFF, $FFFFFFFF & $FFFFFF);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 7A74936A
+/// @DnDArgument : "type" "global.pRocket"
+/// @DnDArgument : "start" "0.7"
+/// @DnDArgument : "middle" "0.5"
+/// @DnDArgument : "end" "0.2"
+part_type_alpha3(global.pRocket, 0.7, 0.5, 0.2);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Life
+/// @DnDVersion : 1
+/// @DnDHash : 32B58346
+/// @DnDArgument : "typ" "global.pRocket"
+/// @DnDArgument : "minlife" "1"
+/// @DnDArgument : "maxlife" "5"
+part_type_life(global.pRocket, 1, 5);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Speed
+/// @DnDVersion : 1
+/// @DnDHash : 0A08B5AC
+/// @DnDArgument : "type" "global.pRocket"
+part_type_speed(global.pRocket, 1, 2, 0, 0);
+
+/// @DnDAction : YoYo Games.Particles.Part_Type_Direction
+/// @DnDVersion : 1
+/// @DnDHash : 3C7C7C5B
+/// @DnDArgument : "type" "global.pRocket"
+/// @DnDArgument : "mindir" "265"
+/// @DnDArgument : "maxdir" "275"
+/// @DnDArgument : "wiggle" "10"
+part_type_direction(global.pRocket, 265, 275, 0, 10);
