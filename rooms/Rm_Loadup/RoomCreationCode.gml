@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 0C288DA0
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.stars"
+global.stars = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4B500B59
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "global.hp_bar"
