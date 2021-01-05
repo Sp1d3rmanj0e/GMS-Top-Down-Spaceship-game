@@ -48,3 +48,9 @@ safety = 0;
 /// @DnDHash : 127A029D
 /// @DnDArgument : "var" "zpres"
 zpres = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 723FB7D0
+/// @DnDArgument : "var" "xpres"
+xpres = 0;

@@ -224,3 +224,77 @@ if (!l2EA34165_0)
 	/// @DnDArgument : "var" "zpres"
 	zpres = 0;
 }
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 3FFA8839
+/// @DnDArgument : "key" "ord("X")"
+var l3FFA8839_0;
+l3FFA8839_0 = keyboard_check(ord("X"));
+if (l3FFA8839_0)
+{
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7B00E922
+	/// @DnDParent : 3FFA8839
+	/// @DnDArgument : "var" "xpres"
+	if(xpres == 0)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 05AAFF52
+		/// @DnDParent : 7B00E922
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "xpres"
+		xpres = 1;
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 4DFCEC56
+		/// @DnDParent : 7B00E922
+		/// @DnDArgument : "var" "global.playerscore"
+		/// @DnDArgument : "op" "2"
+		/// @DnDArgument : "value" "1999"
+		if(global.playerscore > 1999)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 764F7245
+			/// @DnDParent : 4DFCEC56
+			/// @DnDArgument : "expr" "-2000"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "global.playerscore"
+			global.playerscore += -2000;
+		
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 549CAF81
+			/// @DnDComment : replace with rocket
+			/// @DnDDisabled : 1
+			/// @DnDParent : 4DFCEC56
+			/// @DnDArgument : "xpos_relative" "1"
+			/// @DnDArgument : "ypos" "30"
+			/// @DnDArgument : "ypos_relative" "1"
+			/// @DnDArgument : "objectid" "Obj_Wall"
+			/// @DnDArgument : "layer" ""Effects""
+			/// @DnDSaveInfo : "objectid" "Obj_Wall"
+		}
+	}
+}
+
+/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+/// @DnDVersion : 1
+/// @DnDHash : 401FC99B
+/// @DnDArgument : "key" "ord("X")"
+/// @DnDArgument : "not" "1"
+var l401FC99B_0;
+l401FC99B_0 = keyboard_check(ord("X"));
+if (!l401FC99B_0)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2CECCFF0
+	/// @DnDParent : 401FC99B
+	/// @DnDArgument : "var" "xpres"
+	xpres = 0;
+}
