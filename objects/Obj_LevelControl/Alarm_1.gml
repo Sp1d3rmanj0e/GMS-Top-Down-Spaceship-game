@@ -11,6 +11,6 @@ instance_create_layer(random_range(50,room_width - 50), random_range(250,500), "
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 5BB9186B
-/// @DnDArgument : "steps" "room_speed * 20"
+/// @DnDArgument : "steps" "room_speed  * 20"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, room_speed * 20);
+alarm_set(1, room_speed  * 20);

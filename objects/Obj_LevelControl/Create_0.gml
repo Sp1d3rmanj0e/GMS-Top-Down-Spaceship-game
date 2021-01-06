@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 160DCCA4
+/// @DnDArgument : "expr" "-2"
+/// @DnDArgument : "var" "spawn_speed"
+spawn_speed = -2;
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 4F0B3F60

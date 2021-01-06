@@ -10,3 +10,10 @@ if(global.stars == 0)
 	/// @DnDParent : 15CA2C05
 	instance_destroy();
 }
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 351B2B3C
+/// @DnDArgument : "expr" "0.75"
+/// @DnDArgument : "var" "image_alpha"
+image_alpha = 0.75;

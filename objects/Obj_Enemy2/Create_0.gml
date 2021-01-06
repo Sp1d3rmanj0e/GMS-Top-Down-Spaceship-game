@@ -1,3 +1,16 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 56E2D891
+/// @DnDArgument : "var" "global.hp"
+if(global.hp == 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 72FEC145
+	/// @DnDParent : 56E2D891
+	instance_destroy();
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Animation_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 32BF8E40

@@ -28,6 +28,7 @@
     {"isDnD":true,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_HurtEnemy","path":"objects/Obj_HurtEnemy/Obj_HurtEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_HurtEnemy","path":"objects/Obj_HurtEnemy/Obj_HurtEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Hurt","path":"objects/Obj_Hurt/Obj_Hurt.yy",},"parent":{"name":"Obj_HurtEnemy","path":"objects/Obj_HurtEnemy/Obj_HurtEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_HurtInsta","path":"objects/Obj_HurtInsta/Obj_HurtInsta.yy",},"parent":{"name":"Obj_HurtEnemy","path":"objects/Obj_HurtEnemy/Obj_HurtEnemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
