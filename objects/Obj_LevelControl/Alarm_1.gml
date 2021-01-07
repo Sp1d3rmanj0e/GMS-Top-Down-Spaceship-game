@@ -1,16 +1,23 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 2E0174B1
+/// @DnDDisabled : 1
+
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 02105BD4
+/// @DnDHash : 7231BAE2
+/// @DnDDisabled : 1
 /// @DnDArgument : "xpos" "random_range(50,room_width - 50)"
-/// @DnDArgument : "ypos" "random_range(250,500)"
-/// @DnDArgument : "objectid" "Obj_Powerup_Ammo1"
-/// @DnDArgument : "layer" ""PowerUps""
-/// @DnDSaveInfo : "objectid" "Obj_Powerup_Ammo1"
-instance_create_layer(random_range(50,room_width - 50), random_range(250,500), "PowerUps", Obj_Powerup_Ammo1);
+/// @DnDArgument : "ypos" "-50"
+/// @DnDArgument : "objectid" "Obj_Enemy1"
+/// @DnDArgument : "layer" ""Enemies""
+/// @DnDSaveInfo : "objectid" "Obj_Enemy1"
+
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
-/// @DnDHash : 5BB9186B
-/// @DnDArgument : "steps" "room_speed  * 20"
+/// @DnDHash : 46732173
+/// @DnDDisabled : 1
+/// @DnDArgument : "steps" "room_speed * random_range(2,3)"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, room_speed  * 20);

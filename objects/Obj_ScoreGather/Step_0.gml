@@ -17,12 +17,13 @@ if(l74FFFA24_0)
 		/// @DnDAction : YoYo Games.Common.Function_Call
 		/// @DnDVersion : 1
 		/// @DnDHash : 4598FC7B
+		/// @DnDComment : Manual Change$(13_10)Currently
 		/// @DnDInput : 2
 		/// @DnDParent : 6B012B9F
 		/// @DnDArgument : "function" "scoreCali"
 		/// @DnDArgument : "arg" "global.playerscore"
-		/// @DnDArgument : "arg_1" ""Test""
-		scoreCali(global.playerscore, "Test");
+		/// @DnDArgument : "arg_1" ""Jason""
+		scoreCali(global.playerscore, "Jason");
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

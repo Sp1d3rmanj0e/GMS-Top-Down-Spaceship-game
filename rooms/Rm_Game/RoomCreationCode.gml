@@ -9,9 +9,10 @@ global.playerscore = 1000;
 /// @DnDVersion : 1
 /// @DnDHash : 388AFA24
 /// @DnDComment : god mode$(13_10)delete later
+/// @DnDDisabled : 1
 /// @DnDArgument : "expr" "10000"
 /// @DnDArgument : "var" "global.playerscore"
-global.playerscore = 10000;
+
 
 /// @DnDAction : YoYo Games.Particles.Part_Syst_Create
 /// @DnDVersion : 1.1

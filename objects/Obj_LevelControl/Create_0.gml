@@ -1,10 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 160DCCA4
-/// @DnDArgument : "expr" "-2"
-/// @DnDArgument : "var" "spawn_speed"
-spawn_speed = -2;
-
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 4F0B3F60
@@ -25,8 +18,7 @@ if(0 == 0)
 	/// @DnDComment : Will spawn a powerup every x seconds
 	/// @DnDParent : 5E46026B
 	/// @DnDArgument : "steps" "room_speed * 10"
-	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, room_speed * 10);
+	alarm_set(0, room_speed * 10);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
@@ -34,7 +26,8 @@ if(0 == 0)
 	/// @DnDComment : Will Spawn a level 1 enemy every x seconds
 	/// @DnDParent : 5E46026B
 	/// @DnDArgument : "steps" "room_speed * 2"
-	alarm_set(0, room_speed * 2);
+	/// @DnDArgument : "alarm" "1"
+	alarm_set(1, room_speed * 2);
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
