@@ -28,6 +28,14 @@ global.key_speed = 8;
 /// @DnDArgument : "var" "global.movement_type"
 global.movement_type = 1;
 
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 547CB644
+/// @DnDComment : Loads Defaulted$(13_10)Settings
+/// @DnDArgument : "script" "Scr_LoadGame"
+/// @DnDSaveInfo : "script" "Scr_LoadGame"
+script_execute(Scr_LoadGame);
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 4205AABA

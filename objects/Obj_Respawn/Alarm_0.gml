@@ -24,6 +24,14 @@ if(!(global.mtsHealth == 0))
 with(Obj_HpBar) var l2F2F9DC9_0 = image_index >= 3;
 if(l2F2F9DC9_0)
 {
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3EFAC253
+	/// @DnDParent : 2F2F9DC9
+	/// @DnDArgument : "script" "Scr_SaveGame"
+	/// @DnDSaveInfo : "script" "Scr_SaveGame"
+	script_execute(Scr_SaveGame);
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 7341E7CB
