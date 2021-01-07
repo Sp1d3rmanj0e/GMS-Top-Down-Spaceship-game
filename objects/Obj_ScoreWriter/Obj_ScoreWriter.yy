@@ -20,7 +20,6 @@
   "eventList": [
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_ScoreWriter","path":"objects/Obj_ScoreWriter/Obj_ScoreWriter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_ScoreWriter","path":"objects/Obj_ScoreWriter/Obj_ScoreWriter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":79,"eventType":9,"collisionObjectId":null,"parent":{"name":"Obj_ScoreWriter","path":"objects/Obj_ScoreWriter/Obj_ScoreWriter.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

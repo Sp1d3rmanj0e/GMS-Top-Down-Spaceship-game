@@ -30,14 +30,6 @@ function Scr_SaveGame()
 	/// @DnDArgument : "arg" ""Save.sav""
 	ini_open("Save.sav");
 
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0D2970FC
-	/// @DnDParent : 12096249
-	/// @DnDArgument : "expr" "global.stars"
-	/// @DnDArgument : "var" "stars"
-	stars = global.stars;
-
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1
 	/// @DnDHash : 493B6BCD
