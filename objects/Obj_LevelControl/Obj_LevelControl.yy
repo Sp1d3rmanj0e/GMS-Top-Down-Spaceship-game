@@ -24,7 +24,6 @@
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_LevelControl","path":"objects/Obj_LevelControl/Obj_LevelControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_LevelControl","path":"objects/Obj_LevelControl/Obj_LevelControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":3,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_LevelControl","path":"objects/Obj_LevelControl/Obj_LevelControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_ButtonStart","path":"objects/Obj_ButtonStart/Obj_ButtonStart.yy",},"parent":{"name":"Obj_LevelControl","path":"objects/Obj_LevelControl/Obj_LevelControl.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
