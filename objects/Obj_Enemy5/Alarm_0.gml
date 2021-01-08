@@ -27,6 +27,6 @@ instance_create_layer(x + 0, y + 0, "Laser", Obj_HurtEnemyBomb);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 7EF9FD20
-/// @DnDArgument : "steps" "room_speed * 1"
+/// @DnDArgument : "steps" "room_speed * 2"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, room_speed * 1);
+alarm_set(1, room_speed * 2);

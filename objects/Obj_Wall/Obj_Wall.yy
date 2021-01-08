@@ -28,6 +28,7 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Enemies","path":"objects/Obj_Enemies/Obj_Enemies.yy",},"parent":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_MotherShip","path":"objects/Obj_MotherShip/Obj_MotherShip.yy",},"parent":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_HurtEnemyBomb","path":"objects/Obj_HurtEnemyBomb/Obj_HurtEnemyBomb.yy",},"parent":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -1,7 +1,4 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 36652C05
-/// @DnDArgument : "expr" "-7"
-/// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "var" "setSpeed"
-setSpeed += -7;
+/// @DnDHash : 7B509100
+instance_destroy();

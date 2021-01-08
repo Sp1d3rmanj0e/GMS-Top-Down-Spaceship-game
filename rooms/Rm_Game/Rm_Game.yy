@@ -31,8 +31,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_MotherShip","path":"objects/Obj_MotherShip/Obj_MotherShip.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.2,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":768.0,"resourceVersion":"1.0","name":"inst_3FE78689","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy1","path":"objects/Obj_Enemy1/Obj_Enemy1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":321.0,"y":0.0,"resourceVersion":"1.0","name":"inst_315FE488","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy5","path":"objects/Obj_Enemy5/Obj_Enemy5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":458.0,"y":15.0,"resourceVersion":"1.0","name":"inst_CE42376","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy5","path":"objects/Obj_Enemy5/Obj_Enemy5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":175.0,"y":22.0,"resourceVersion":"1.0","name":"inst_1584B33","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":512.0,"resourceVersion":"1.0","name":"inst_249E97D3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Laser","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -121,8 +120,7 @@
     {"name":"inst_376D9BD","path":"rooms/Rm_Game/Rm_Game.yy",},
     {"name":"inst_468399AA","path":"rooms/Rm_Game/Rm_Game.yy",},
     {"name":"inst_315FE488","path":"rooms/Rm_Game/Rm_Game.yy",},
-    {"name":"inst_CE42376","path":"rooms/Rm_Game/Rm_Game.yy",},
-    {"name":"inst_1584B33","path":"rooms/Rm_Game/Rm_Game.yy",},
+    {"name":"inst_249E97D3","path":"rooms/Rm_Game/Rm_Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

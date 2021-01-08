@@ -128,7 +128,7 @@ else
 				/// @DnDAction : YoYo Games.Instances.Set_Alarm
 				/// @DnDVersion : 1
 				/// @DnDHash : 39683559
-				/// @DnDComment : if bullet already hit, 50% chance to deflect
+				/// @DnDComment : Delay death
 				/// @DnDParent : 4DFA2AF1
 				/// @DnDArgument : "alarm" "2"
 				alarm_set(2, 30);

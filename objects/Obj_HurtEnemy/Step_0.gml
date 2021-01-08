@@ -25,17 +25,3 @@ if(!(global.hp == 0))
 	/// @DnDArgument : "speed" "setSpeed"
 	speed = setSpeed;
 }
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 2D89549A
-/// @DnDArgument : "var" "setSpeed"
-/// @DnDArgument : "op" "3"
-if(setSpeed <= 0)
-{
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 6CF7C331
-	/// @DnDParent : 2D89549A
-	instance_destroy();
-}
