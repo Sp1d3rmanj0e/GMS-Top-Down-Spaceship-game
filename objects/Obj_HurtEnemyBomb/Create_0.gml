@@ -24,9 +24,30 @@ image_index = 0;
 /// @DnDHash : 7E57A6E0
 image_speed = 1;
 
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 663ABD65
-/// @DnDArgument : "x" "Obj_Spaceship.x"
-/// @DnDArgument : "y" "Obj_Spaceship.y"
-direction = point_direction(x, y, Obj_Spaceship.x, Obj_Spaceship.y);
+/// @DnDHash : 4B6F28B2
+/// @DnDArgument : "var" "global.hp"
+/// @DnDArgument : "not" "1"
+if(!(global.hp == 0))
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 663ABD65
+	/// @DnDParent : 4B6F28B2
+	/// @DnDArgument : "x" "Obj_Spaceship.x"
+	/// @DnDArgument : "y" "Obj_Spaceship.y"
+	direction = point_direction(x, y, Obj_Spaceship.x, Obj_Spaceship.y);
+}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 4907B458
+else
+{
+	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 77C7CD81
+	/// @DnDParent : 4907B458
+	instance_destroy();
+}
