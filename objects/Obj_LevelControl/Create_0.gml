@@ -23,7 +23,7 @@ if(0 == 0)
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 34461B2F
-	/// @DnDComment : Will Spawn a level 1 enemy every x seconds
+	/// @DnDComment : Basic Enemy
 	/// @DnDParent : 5E46026B
 	/// @DnDArgument : "steps" "room_speed * 2"
 	/// @DnDArgument : "alarm" "1"
@@ -32,7 +32,7 @@ if(0 == 0)
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 0E655131
-	/// @DnDComment : Spawns Enemy 2
+	/// @DnDComment : Curvy Enemy
 	/// @DnDParent : 5E46026B
 	/// @DnDArgument : "steps" "room_speed * 12"
 	/// @DnDArgument : "alarm" "2"
@@ -41,9 +41,27 @@ if(0 == 0)
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 6EAEB54B
-	/// @DnDComment : Spawns Enemy 3
+	/// @DnDComment : Shoot Back Enemy
 	/// @DnDParent : 5E46026B
 	/// @DnDArgument : "steps" "room_speed * 22"
 	/// @DnDArgument : "alarm" "3"
 	alarm_set(3, room_speed * 22);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 78A07532
+	/// @DnDComment : Komicazzi Enemy
+	/// @DnDParent : 5E46026B
+	/// @DnDArgument : "steps" "room_speed * 44"
+	/// @DnDArgument : "alarm" "4"
+	alarm_set(4, room_speed * 44);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 517A46BF
+	/// @DnDComment : Bomber Enemy
+	/// @DnDParent : 5E46026B
+	/// @DnDArgument : "steps" "room_speed * 88"
+	/// @DnDArgument : "alarm" "5"
+	alarm_set(5, room_speed * 88);
 }

@@ -34,8 +34,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies and Player",
-    "path": "folders/Objects/Enemies and Player.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies and Player/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_Enemy4",

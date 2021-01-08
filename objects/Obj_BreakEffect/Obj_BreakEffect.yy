@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_BreakEffect",
+    "path": "sprites/Spr_BreakEffect/Spr_BreakEffect.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_BreakEffect","path":"objects/Obj_BreakEffect/Obj_BreakEffect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_BreakEffect","path":"objects/Obj_BreakEffect/Obj_BreakEffect.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -25,7 +31,7 @@
     "path": "folders/Objects/Effects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_PanelFallOff",
+  "name": "Obj_BreakEffect",
   "tags": [],
   "resourceType": "GMObject",
 }
