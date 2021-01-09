@@ -13,6 +13,14 @@ randomize();
 /// @DnDSaveInfo : "objectid" "Obj_Enemy1"
 instance_create_layer(random_range(50,room_width - 50), -50, "Enemies", Obj_Enemy1);
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 169F09B1
+/// @DnDArgument : "expr" "125"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "global.timescore"
+global.timescore += 125;
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 46732173

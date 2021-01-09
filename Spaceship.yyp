@@ -49,6 +49,7 @@
     {"id":{"name":"Spr_Button1","path":"sprites/Spr_Button1/Spr_Button1.yy",},"order":16,},
     {"id":{"name":"Obj_MotherShip","path":"objects/Obj_MotherShip/Obj_MotherShip.yy",},"order":3,},
     {"id":{"name":"Spr_Enemy3","path":"sprites/Spr_Enemy3/Spr_Enemy3.yy",},"order":14,},
+    {"id":{"name":"Spr_Instructions2","path":"sprites/Spr_Instructions2/Spr_Instructions2.yy",},"order":38,},
     {"id":{"name":"Spr_Switch","path":"sprites/Spr_Switch/Spr_Switch.yy",},"order":22,},
     {"id":{"name":"Obj_Explosion","path":"objects/Obj_Explosion/Obj_Explosion.yy",},"order":0,},
     {"id":{"name":"Spr_ResetChanges","path":"sprites/Spr_ResetChanges/Spr_ResetChanges.yy",},"order":31,},

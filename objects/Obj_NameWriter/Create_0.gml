@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 2CEE6A6C
+/// @DnDArgument : "expr" """"
+/// @DnDArgument : "var" "keyboard_string"
+keyboard_string = "";
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 418F0DED
 /// @DnDComment : Make operation so$(13_10)if this is empty, $(13_10)it will default$(13_10)to 000 or maybe$(13_10)say fill it out
 /// @DnDArgument : "expr" """"
