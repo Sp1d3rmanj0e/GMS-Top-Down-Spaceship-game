@@ -18,7 +18,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_LevelControl","path":"objects/Obj_LevelControl/Obj_LevelControl.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":17.0,"y":15.0,"resourceVersion":"1.0","name":"inst_72CBC69B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Ztoggle","path":"objects/Obj_Ztoggle/Obj_Ztoggle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.8030303,"scaleY":0.772727251,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":607.1515,"y":367.181824,"resourceVersion":"1.0","name":"inst_7DF59DC9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Xtoggle","path":"objects/Obj_Xtoggle/Obj_Xtoggle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.8129014,"scaleY":0.7966505,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":606.825745,"y":502.909058,"resourceVersion":"1.0","name":"inst_376D9BD","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_ScoreGather","path":"objects/Obj_ScoreGather/Obj_ScoreGather.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":192.0,"resourceVersion":"1.0","name":"inst_468399AA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Top","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Spr_Ui1","path":"sprites/Spr_Ui1/Spr_Ui1.yy",},"headPosition":0.0,"rotation":-90.07273,"scaleX":0.675,"scaleY":2.20634937,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":635.685669,"y":432.978516,"resourceVersion":"1.0","name":"graphic_74C26EBB","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -31,7 +30,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_MotherShip","path":"objects/Obj_MotherShip/Obj_MotherShip.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.2,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":768.0,"resourceVersion":"1.0","name":"inst_3FE78689","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Enemy1","path":"objects/Obj_Enemy1/Obj_Enemy1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":321.0,"y":0.0,"resourceVersion":"1.0","name":"inst_315FE488","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Wall","path":"objects/Obj_Wall/Obj_Wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":512.0,"resourceVersion":"1.0","name":"inst_249E97D3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Laser","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -118,9 +116,7 @@
     {"name":"inst_72CBC69B","path":"rooms/Rm_Game/Rm_Game.yy",},
     {"name":"inst_7DF59DC9","path":"rooms/Rm_Game/Rm_Game.yy",},
     {"name":"inst_376D9BD","path":"rooms/Rm_Game/Rm_Game.yy",},
-    {"name":"inst_468399AA","path":"rooms/Rm_Game/Rm_Game.yy",},
     {"name":"inst_315FE488","path":"rooms/Rm_Game/Rm_Game.yy",},
-    {"name":"inst_249E97D3","path":"rooms/Rm_Game/Rm_Game.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

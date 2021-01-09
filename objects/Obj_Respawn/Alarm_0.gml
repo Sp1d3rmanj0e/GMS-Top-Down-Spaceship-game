@@ -28,9 +28,9 @@ if(l2F2F9DC9_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 7341E7CB
 	/// @DnDParent : 2F2F9DC9
-	/// @DnDArgument : "room" "Rm_TitleScreen"
-	/// @DnDSaveInfo : "room" "Rm_TitleScreen"
-	room_goto(Rm_TitleScreen);
+	/// @DnDArgument : "room" "Rm_SetName"
+	/// @DnDSaveInfo : "room" "Rm_SetName"
+	room_goto(Rm_SetName);
 
 	/// @DnDAction : YoYo Games.Game.Restart_Game
 	/// @DnDVersion : 1
