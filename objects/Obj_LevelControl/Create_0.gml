@@ -70,4 +70,13 @@ if(0 == 0)
 	/// @DnDArgument : "steps" "room_speed * 88"
 	/// @DnDArgument : "alarm" "5"
 	alarm_set(5, room_speed * 88);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 0F6E4016
+	/// @DnDComment : Shield Spawning enemy
+	/// @DnDParent : 5E46026B
+	/// @DnDArgument : "steps" "room_speed * 176"
+	/// @DnDArgument : "alarm" "6"
+	alarm_set(6, room_speed * 176);
 }
