@@ -9,3 +9,11 @@ shake_power = 15;
 /// @DnDVersion : 1
 /// @DnDHash : 1CE6B191
 alarm_set(0, 30);
+
+/// @DnDAction : YoYo Games.Audio.Audio_Set_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 6A793983
+/// @DnDArgument : "sound" "Snd_Gameplay"
+/// @DnDArgument : "volume" "0.25"
+/// @DnDSaveInfo : "sound" "Snd_Gameplay"
+audio_sound_gain(Snd_Gameplay, 0.25, 0);

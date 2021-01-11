@@ -33,6 +33,7 @@
     {"isDnD":true,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_HurtEnemyBmbRng","path":"objects/Obj_HurtEnemyBmbRng/Obj_HurtEnemyBmbRng.yy",},"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"parent":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

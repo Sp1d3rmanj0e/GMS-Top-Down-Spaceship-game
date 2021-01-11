@@ -20,7 +20,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"parent":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

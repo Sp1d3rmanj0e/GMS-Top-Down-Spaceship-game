@@ -24,6 +24,7 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Obj_Spaceship","path":"objects/Obj_Spaceship/Obj_Spaceship.yy",},"parent":{"name":"Obj_Powerup_Ammo1","path":"objects/Obj_Powerup_Ammo1/Obj_Powerup_Ammo1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_Powerup_Ammo1","path":"objects/Obj_Powerup_Ammo1/Obj_Powerup_Ammo1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_Powerup_Ammo1","path":"objects/Obj_Powerup_Ammo1/Obj_Powerup_Ammo1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":7,"collisionObjectId":null,"parent":{"name":"Obj_Powerup_Ammo1","path":"objects/Obj_Powerup_Ammo1/Obj_Powerup_Ammo1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
