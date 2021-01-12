@@ -27,6 +27,14 @@ global.key_speed = 8;
 /// @DnDArgument : "var" "global.movement_type"
 global.movement_type = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 01E0C4B1
+/// @DnDComment : So highscores don't crash on startup
+/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "var" "global.placement"
+global.placement = 10;
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 547CB644

@@ -24,6 +24,6 @@ global.timescore += 350;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 24D41036
-/// @DnDArgument : "steps" "room_speed * random_range(5,6)"
+/// @DnDArgument : "steps" "room_speed * random_range(6,7)"
 /// @DnDArgument : "alarm" "6"
-alarm_set(6, room_speed * random_range(5,6));
+alarm_set(6, room_speed * random_range(6,7));
