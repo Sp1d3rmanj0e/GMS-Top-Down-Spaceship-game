@@ -3,8 +3,8 @@
 /// @DnDHash : 4AE03357
 /// @DnDArgument : "var" "global.playerscore"
 /// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "5000"
-if(global.playerscore < 5000)
+/// @DnDArgument : "value" "3000"
+if(global.playerscore < 3000)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -22,8 +22,8 @@ if(global.playerscore < 5000)
 /// @DnDHash : 01A92D56
 /// @DnDArgument : "var" "global.playerscore"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "5000"
-if(global.playerscore >= 5000)
+/// @DnDArgument : "value" "3000"
+if(global.playerscore >= 3000)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

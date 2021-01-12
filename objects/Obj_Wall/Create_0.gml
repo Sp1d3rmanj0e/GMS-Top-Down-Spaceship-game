@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4027A8B6
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "hp"
-hp = 5;
+hp = 3;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -26,9 +26,9 @@ alarm_set(0, 30);
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 1ECF2C68
-/// @DnDArgument : "steps" "60"
+/// @DnDArgument : "steps" "65"
 /// @DnDArgument : "alarm" "1"
-alarm_set(1, 60);
+alarm_set(1, 65);
 
 /// @DnDAction : YoYo Games.Instances.Color_Sprite
 /// @DnDVersion : 1

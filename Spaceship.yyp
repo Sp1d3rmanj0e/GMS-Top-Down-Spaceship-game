@@ -69,7 +69,6 @@
     {"id":{"name":"Spr_HurtInsta","path":"sprites/Spr_HurtInsta/Spr_HurtInsta.yy",},"order":29,},
     {"id":{"name":"Obj_NameWriter","path":"objects/Obj_NameWriter/Obj_NameWriter.yy",},"order":8,},
     {"id":{"name":"Obj_SwitchHpBr","path":"objects/Obj_SwitchHpBr/Obj_SwitchHpBr.yy",},"order":3,},
-    {"id":{"name":"Spr_Tree","path":"sprites/Spr_Tree/Spr_Tree.yy",},"order":41,},
     {"id":{"name":"Spr_Hurt","path":"sprites/Spr_Hurt/Spr_Hurt.yy",},"order":4,},
     {"id":{"name":"Obj_SmallShake","path":"objects/Obj_SmallShake/Obj_SmallShake.yy",},"order":1,},
     {"id":{"name":"Spr_PowerUp_Shield","path":"sprites/Spr_PowerUp_Shield/Spr_PowerUp_Shield.yy",},"order":5,},

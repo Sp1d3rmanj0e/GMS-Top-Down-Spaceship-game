@@ -12,10 +12,10 @@ instance_create_layer(x + 0, y + 0, "Effects", Obj_Explosion);
 /// @DnDVersion : 1
 /// @DnDHash : 19D03988
 /// @DnDComment : 5-hp is exploit protection$(13_10)if it gets deleted with less health$(13_10)it will give less money back
-/// @DnDArgument : "expr" "5000 - (1000 * (5 - hp))"
+/// @DnDArgument : "expr" "3000 - (600 * (5 - hp))"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "global.playerscore"
-global.playerscore += 5000 - (1000 * (5 - hp));
+global.playerscore += 3000 - (600 * (5 - hp));
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

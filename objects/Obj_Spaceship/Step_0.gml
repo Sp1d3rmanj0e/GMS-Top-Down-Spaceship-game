@@ -181,17 +181,17 @@ if (l3CDC4A5F_0)
 		/// @DnDParent : 0E6A6E55
 		/// @DnDArgument : "var" "global.playerscore"
 		/// @DnDArgument : "op" "2"
-		/// @DnDArgument : "value" "4999"
-		if(global.playerscore > 4999)
+		/// @DnDArgument : "value" "2999"
+		if(global.playerscore > 2999)
 		{
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 3F0CE39F
 			/// @DnDParent : 36CEEC58
-			/// @DnDArgument : "expr" "-5000"
+			/// @DnDArgument : "expr" "-3000"
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "global.playerscore"
-			global.playerscore += -5000;
+			global.playerscore += -3000;
 		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1

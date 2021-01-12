@@ -22,9 +22,9 @@ scale = 0.1;
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 4D8F72A7
-/// @DnDArgument : "yscale" "scale"
-image_xscale = 1;
-image_yscale = scale;
+/// @DnDArgument : "xscale" "scale"
+image_xscale = scale;
+image_yscale = 1;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
