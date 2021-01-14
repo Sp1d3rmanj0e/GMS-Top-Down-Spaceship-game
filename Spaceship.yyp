@@ -92,6 +92,7 @@
     {"id":{"name":"Obj_BreakEffect","path":"objects/Obj_BreakEffect/Obj_BreakEffect.yy",},"order":3,},
     {"id":{"name":"Obj_Slider","path":"objects/Obj_Slider/Obj_Slider.yy",},"order":6,},
     {"id":{"name":"Obj_PowerUp_Shield","path":"objects/Obj_PowerUp_Shield/Obj_PowerUp_Shield.yy",},"order":3,},
+    {"id":{"name":"Snd_HomeScreen","path":"sounds/Snd_HomeScreen/Snd_HomeScreen.yy",},"order":1,},
     {"id":{"name":"Obj_Star","path":"objects/Obj_Star/Obj_Star.yy",},"order":1,},
     {"id":{"name":"Obj_Enemy3","path":"objects/Obj_Enemy3/Obj_Enemy3.yy",},"order":2,},
     {"id":{"name":"Obj_Hurt","path":"objects/Obj_Hurt/Obj_Hurt.yy",},"order":0,},

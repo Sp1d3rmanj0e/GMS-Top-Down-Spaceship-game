@@ -35,6 +35,14 @@ global.movement_type = 0;
 /// @DnDArgument : "var" "global.placement"
 global.placement = 10;
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0E104FE6
+/// @DnDArgument : "soundid" "Snd_HomeScreen"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "Snd_HomeScreen"
+audio_play_sound(Snd_HomeScreen, 0, 1);
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 547CB644

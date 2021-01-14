@@ -12,6 +12,13 @@ image_index = 0;
 /// @DnDArgument : "var" "Offset"
 Offset = 0;
 
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0A662E63
+/// @DnDArgument : "soundid" "Snd_HomeScreen"
+/// @DnDSaveInfo : "soundid" "Snd_HomeScreen"
+audio_stop_sound(Snd_HomeScreen);
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 6A0ECD83
