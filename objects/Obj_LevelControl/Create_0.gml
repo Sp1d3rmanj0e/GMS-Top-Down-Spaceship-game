@@ -16,7 +16,8 @@ global.playerscore = 0;
 /// @DnDHash : 5E46026B
 /// @DnDComment : Select "Not" To Turn off the auto-spawn
 /// @DnDArgument : "var" "0"
-if(0 == 0)
+/// @DnDArgument : "not" "1"
+if(!(0 == 0))
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
